@@ -1,4 +1,4 @@
-﻿namespace CqrsNinja.Contracts.DTO
+﻿namespace UniAdmin.Contracts.DTO
 {
     public class DealDTO
     {
