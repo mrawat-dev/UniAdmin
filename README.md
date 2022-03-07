@@ -10,9 +10,9 @@ Deal API is build to demonstrate API on ASP.NET Core (.NET 6) via MediatR.
 * Fluent Validation for .NET 6
 * SQLite
 
-# In this test I tried to showcase below:
+# In this I tried to showcase below:
 
-1. Clean Architecture with well-defined layers for API, Persistence, Core, Contracts and Migrations
+1. Clean Architecture with well-defined layers for API, Core, Contracts and Infrastructure
 2. Implemented with Generic Repository
 3. Preconfigured Entity Framework Core migrations with SQLite
 4. Segregated Commands and Queries with their Handlers
