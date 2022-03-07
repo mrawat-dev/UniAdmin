@@ -10,6 +10,9 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{C7E8250C-9A40-4EAA-8F9F-905ED731F169}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Item", "Solution Item", "{1344A24F-C981-4644-BFA3-13EFEF56CE7B}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UniAdmin.Contracts", "UniAdmin.Contracts\UniAdmin.Contracts.csproj", "{2103EEB9-6D03-4BBC-96AC-46F21DD3CA69}"
 EndProject
