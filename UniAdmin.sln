@@ -1,0 +1,54 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 25.0.1700.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UniAdmin.API", "UniAdmin.API\UniAdmin.API.csproj", "{B9492CFF-9DF9-41F6-90E7-2EEAD1F5C216}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{0FBF64A4-DF78-4E2B-A1AE-A90957C3F271}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{C7E8250C-9A40-4EAA-8F9F-905ED731F169}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Item", "Solution Item", "{1344A24F-C981-4644-BFA3-13EFEF56CE7B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UniAdmin.Contracts", "UniAdmin.Contracts\UniAdmin.Contracts.csproj", "{2103EEB9-6D03-4BBC-96AC-46F21DD3CA69}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UniAdmin.Infrastructure", "UniAdmin.Infrastructure\UniAdmin.Infrastructure.csproj", "{DF88F8C6-B3EA-4817-B5C2-19FB74156E0E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UniAdmin.Core", "UniAdmin.Core\UniAdmin.Core.csproj", "{4193626C-4E9A-4329-A4DD-B9DA5D134652}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B9492CFF-9DF9-41F6-90E7-2EEAD1F5C216}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B9492CFF-9DF9-41F6-90E7-2EEAD1F5C216}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B9492CFF-9DF9-41F6-90E7-2EEAD1F5C216}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B9492CFF-9DF9-41F6-90E7-2EEAD1F5C216}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2103EEB9-6D03-4BBC-96AC-46F21DD3CA69}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2103EEB9-6D03-4BBC-96AC-46F21DD3CA69}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2103EEB9-6D03-4BBC-96AC-46F21DD3CA69}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2103EEB9-6D03-4BBC-96AC-46F21DD3CA69}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DF88F8C6-B3EA-4817-B5C2-19FB74156E0E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF88F8C6-B3EA-4817-B5C2-19FB74156E0E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DF88F8C6-B3EA-4817-B5C2-19FB74156E0E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DF88F8C6-B3EA-4817-B5C2-19FB74156E0E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4193626C-4E9A-4329-A4DD-B9DA5D134652}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4193626C-4E9A-4329-A4DD-B9DA5D134652}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4193626C-4E9A-4329-A4DD-B9DA5D134652}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4193626C-4E9A-4329-A4DD-B9DA5D134652}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AA4DAE7F-0EA7-449D-94F3-649808C2510D}
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{2103EEB9-6D03-4BBC-96AC-46F21DD3CA69} = {0FBF64A4-DF78-4E2B-A1AE-A90957C3F271}
+		{DF88F8C6-B3EA-4817-B5C2-19FB74156E0E} = {C7E8250C-9A40-4EAA-8F9F-905ED731F169}
+		{4193626C-4E9A-4329-A4DD-B9DA5D134652} = {0FBF64A4-DF78-4E2B-A1AE-A90957C3F271}
+	EndGlobalSection
+EndGlobal
