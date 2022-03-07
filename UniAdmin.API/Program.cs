@@ -1,16 +1,33 @@
-﻿var builder = WebApplication.CreateBuilder(args);
+using Microsoft.AspNetCore.Hosting;
+using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.DependencyInjection;
+using Microsoft.Extensions.Hosting;
+using System.Linq;
+using UniAdmin.Infrastructure.Data;
 
-// Add services to the container.
+namespace UniAdmin
+{
+    public class Program
+    {
+        public static void Main(string[] args)
+        {
+            var builder = CreateHostBuilder(args).Build();
 
-builder.Services.AddControllers();
+            using var scope = builder.Services.CreateScope();
+            var db = scope.ServiceProvider.GetRequiredService<DatabaseContext>();
+            if (db.Database.GetPendingMigrations().Any())
+            {
+                db.Database.Migrate();
+            }
 
-var app = builder.Build();
+            builder.Run();
+        }
 
-// Configure the HTTP request pipeline.
-
-app.UseAuthorization();
-
-app.MapControllers();
-
-app.Run();
-
+        public static IHostBuilder CreateHostBuilder(string[] args) =>
+            Host.CreateDefaultBuilder(args)
+                .ConfigureWebHostDefaults(webBuilder =>
+                {
+                    webBuilder.UseStartup<Startup>();
+                });
+    }
+}
